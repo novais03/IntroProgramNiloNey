@@ -12,3 +12,4 @@ while True:
         print('Numero invalido')
     else:
         print(f"Você escolheu o número: {números[escolhido - 1]}")
+
