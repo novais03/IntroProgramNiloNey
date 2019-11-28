@@ -1,0 +1,17 @@
+"""
+Break statement is used to stop While execution
+
+Leitura de valores até que escrevamos (0) no programa
+
+Read values ​​until we wrote (0) in program
+"""
+
+s = 0
+
+while True: # 1) substitui while por True, o que provoca um loop
+    v=int(input('Digite um número a somar ou 0 para sair..: '))
+    if v == 0:
+        break # 2) Break execultado dentro do if faz que o loop termine quando v recebe o valor 0
+    s = s+v 
+print(s)
+
